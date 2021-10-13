@@ -1,0 +1,43 @@
+.timer {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  min-width: 405px;
+  padding: 20px;
+  background-color: rgba(195, 217, 247, 0.5);
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+}
+
+.field {
+  display: inline-block;
+  max-width: calc(100% / 4 - 10px);
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.field:not(:last-child) {
+  margin-right: 10px;
+}
+
+.value {
+  padding: 10px;
+  min-width: 70px;
+  /* background-color: rgb(87, 84, 80); */
+  /* background: #b5bdc8; */
+  background: linear-gradient(to top, #9ec3f7 10%, #70b7f5 36%, #174763 100%);
+  display: inline-block;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+}
+
+.label {
+  display: block;
+  padding-top: 5px;
+  color: rgb(167, 162, 155);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
